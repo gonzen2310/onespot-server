@@ -1,6 +1,7 @@
-# startup_namer
+#  START UP NAMER
 
 A new Flutter application.
+First cross-platform application using Flutter
 
 ## Getting Started
 
