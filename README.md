@@ -1,4 +1,3 @@
-# portfolio-gonchi-server
-Golang server for portfolio website
+# Onespot server
 
-Web server build with golang for my portfolio website
+Golang server for Onespot mobile application
