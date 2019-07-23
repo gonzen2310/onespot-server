@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# Onespot server
+
+Golang server for Onespot mobile application
+>>>>>>> 4ef5356c2c84cf35b6b90b95568bc5d7cc5d1956
