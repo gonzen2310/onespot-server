@@ -1,7 +1,9 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+status_states = ["applied", "rejected", "offer", "interviewing"]
+
+10.times do 
+	Job.create(
+		job_title: Faker::Job.title,
+		company_name: Faker::Company.name,
+		status: status_states[rand(4)]
+	)
+end
